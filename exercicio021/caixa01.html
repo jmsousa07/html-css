@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        h1{ /* box-level */
+            background-color: rgb(231, 203, 169);
+            height: 300px;
+            width: 300px;
+            text-align: center;
+
+            border-width: 10px;
+            border-color: brown;
+            border-style: solid;
+            /* shorthand: border: "width" "style" "color" */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* shorhand: padding: "top" "right" "bottom" "left"
+            >>> se as quatro forem iguais você só precisa colocar 1, mas se você quiser pode colocar 2 medidas e vai contar o top para cima e para baixo e o right para a direita e para a esquerda. */
+
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            /* shorthand: margin: "top" "right" "bottom" "left" 
+            >>> você pode colocar "auto" na margin da direita e da esquerda para a caixa ficar sempre no centro da página */
+            
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+            /* shorthand: outline: "width" "style" "color" */
+        }
+        a{ /* inline-level */
+            color: rgb(109, 64, 5);
+            text-decoration: none;
+            border: 6px solid red;
+            margin: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Parágrafos também são elementos box-level, <br>
+        mas os <a href="#">links são exemplos de caixas inline-level.</a> <br> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

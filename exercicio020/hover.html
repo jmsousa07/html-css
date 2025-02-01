@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes em CSS</title>
+    <style>
+        body{
+            background-color: brown;
+            font-family: 'Gill Sans', sans-serif;
+        }
+        h1{
+            font-size: xx-large;
+        }
+        div > p{
+            display: none;
+            background-color: rgb(19, 19, 20);
+            color: rgb(114, 34, 189);
+        }
+        div:hover > p{
+            display: block;
+        }
+        a{
+            color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste Pseudo-classe</h1>
+    <p>Parágrafo visível</p>
+    <div>
+        <strong>Passe o mouse aqui</strong>
+        <p>TEXTO INVISÍVEL...</p>
+    </div>
+    <br>
+    <a href="index.html">Voltar</a>
+</body>
+</html>

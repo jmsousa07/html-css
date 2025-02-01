@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas e Áudios</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas com HTML</h1>
+    <p>Aqui você terá uma imagem que se adaptará de acordo com o tamaho da tela do dispositivo que você está usando para abrir o site</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/imgpp.jpg">
+        <source media="(max-width: 730px)" srcset="imagens/imgp.jpg">
+        <source media="(max-width: 1030px)" srcset="imagens/imgm.jpg">
+        <img src="imagens/imgg.jpg" alt="Imagem flexível">
+    </picture>
+    <h1>Áudios em HTML</h1>
+    <p>Aqui você pode escutar algumas das nossas músicas </p>
+    <audio src="audios/Frame of Mine - Freedom Trail Studio.mp3" controls autoplay></audio>
+    <audio src="audios/Frame of Mine - Freedom Trail Studio.mp3" controls type="audio/mpeg"></audio>
+</body>
+</html>
