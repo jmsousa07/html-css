@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            height: 97vh;
+            /*
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*
+             Shorthand - background:
+             color > image > position > repeat > [size] > attachment 
+             --> o size está na regra dessa shorthand, mas não funciona na prática, então faz a shorthand sem ele e adciona depois por fora
+             */
+             
+             background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;
+             background-size: cover;
+        }
+
+        main{
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            border: 2px solid red;
+            border-radius: 15px;
+            padding: 10px;
+            text-align: justify;
+        }
+
+        main > h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi unde rerum amet voluptatem suscipit nam eaque aliquam cum sint quae inventore quasi, ducimus tenetur eligendi omnis obcaecati reprehenderit nemo deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores cumque saepe quasi sit voluptas quisquam modi accusantium animi quidem voluptatibus aperiam quaerat eum iusto, itaque minima deleniti quos. Et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam voluptate maxime repellat perspiciatis distinctio explicabo nobis consequatur, ipsam quibusdam impedit voluptas veniam odio alias possimus asperiores pariatur hic. Atque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi unde rerum amet voluptatem suscipit nam eaque aliquam cum sint quae inventore quasi, ducimus tenetur eligendi omnis obcaecati reprehenderit nemo deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores cumque saepe quasi sit voluptas quisquam modi accusantium animi quidem voluptatibus aperiam quaerat eum iusto, itaque minima deleniti quos. Et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam voluptate maxime repellat perspiciatis distinctio explicabo nobis consequatur, ipsam quibusdam impedit voluptas veniam odio alias possimus asperiores pariatur hic. Atque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi unde rerum amet voluptatem suscipit nam eaque aliquam cum sint quae inventore quasi, ducimus tenetur eligendi omnis obcaecati reprehenderit nemo deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores cumque saepe quasi sit voluptas quisquam modi accusantium animi quidem voluptatibus aperiam quaerat eum iusto, itaque minima deleniti quos. Et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam voluptate maxime repellat perspiciatis distinctio explicabo nobis consequatur, ipsam quibusdam impedit voluptas veniam odio alias possimus asperiores pariatur hic. Atque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi unde rerum amet voluptatem suscipit nam eaque aliquam cum sint quae inventore quasi, ducimus tenetur eligendi omnis obcaecati reprehenderit nemo deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores cumque saepe quasi sit voluptas quisquam modi accusantium animi quidem voluptatibus aperiam quaerat eum iusto, itaque minima deleniti quos. Et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam voluptate maxime repellat perspiciatis distinctio explicabo nobis consequatur, ipsam quibusdam impedit voluptas veniam odio alias possimus asperiores pariatur hic. Atque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi unde rerum amet voluptatem suscipit nam eaque aliquam cum sint quae inventore quasi, ducimus tenetur eligendi omnis obcaecati reprehenderit nemo deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores cumque saepe quasi sit voluptas quisquam modi accusantium animi quidem voluptatibus aperiam quaerat eum iusto, itaque minima deleniti quos. Et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam voluptate maxime repellat perspiciatis distinctio explicabo nobis consequatur, ipsam quibusdam impedit voluptas veniam odio alias possimus asperiores pariatur hic. Atque.</p>
+    </main>
+</body>
+</html>
