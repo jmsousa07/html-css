@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens no fundo do site</title>
+
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 250px;
+            height: 250px;
+        }
+
+        div#q1{
+            background-color: transparent;
+        }
+
+        div#q2{
+            background-image: radial-gradient(closest-side, rgb(38, 0, 255),  rgb(14, 26, 91), rgba(36, 28, 51, 0.996))
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
